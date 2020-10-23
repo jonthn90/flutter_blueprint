@@ -30,9 +30,30 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+  <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyCjadeSdxzIS01qPFwY-8JEFDLyJOkLzsE",
+        authDomain: "flutter-blueprint.firebaseapp.com",
+        databaseURL: "https://flutter-blueprint.firebaseio.com",
+        projectId: "flutter-blueprint",
+        storageBucket: "flutter-blueprint.appspot.com",
+        messagingSenderId: "196692038396",
+        appId: "1:196692038396:web:989a0b9d20797c76547d79",
+        measurementId: "G-5ML3GGZB8H"
+      };
+
+      firebase.initializeApp(firebaseConfig);
+  </script>
+
   <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
+         application. For more information, see:
+         https://developers.google.com/web/fundamentals/primers/service-workers
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
@@ -40,6 +61,8 @@
       });
     }
   </script>
+  -->
+
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
