@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "196692038396",
+    "firebase_url": "https://flutter-blueprint.firebaseio.com",
+    "project_id": "flutter-blueprint",
+    "storage_bucket": "flutter-blueprint.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196692038396:android:d5e56111b1eb52ef547d79",
+        "android_client_info": {
+          "package_name": "xyz.jonthn.flutter_blueprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196692038396-5m9gmonq9dhe6qh4is11c368vsvtbhg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH3i3eYScEDTQvyGFU_Cq6hihHIsz9XTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196692038396-5m9gmonq9dhe6qh4is11c368vsvtbhg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
